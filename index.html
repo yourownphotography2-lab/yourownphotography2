@@ -1,119 +1,733 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Your Own Photography</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Own Photography | Prince Rajsagar</title>
+
+    <meta name="description"
+        content="Wedding Photography | Cinematography | Pre Wedding | Portrait Photography | Jamshedpur">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
 </head>
 
-<body style="background:black;color:gold;text-align:center;font-family:Arial;margin-top:100px;">
+<body>
+<div id="progressBar"></div>
+<!-- ================= PRELOADER ================= -->
 
-<h1>YOUR OWN PHOTOGRAPHY</h1>
+<div id="preloader">
 
-<h2>Prince Rajsagar</h2>
+    <img src="logo.png" alt="Logo">
 
-<p>Turning Moments Into Timeless Stories.</p>
+    <h2>Your Own Photography</h2>
 
+    <p>Loading...</p>
+<div class="loader-bar">
+    <div class="loader-fill"></div>
+</div>
+</div>
+
+<!-- ================= HEADER ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <img src="logo.png" alt="Logo">
+
+        <div>
+
+            <h2>Your Own Photography</h2>
+
+            <p>by Prince Rajsagar</p>
+
+        </div>
+
+    </div>
+<div class="menu-toggle" id="menuToggle">
+    ☰
+</div>
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <h3>WELCOME TO</h3>
+
+        <h1>Your Own Photography</h1>
+
+        <p>
+            Turning Moments Into Timeless Stories.<br>
+            Transforming Imagination Into Reality.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#booking" class="btn">Book Now</a>
+
+            <a href="#portfolio" class="btn-outline">View Portfolio</a>
+
+        </div>
+
+    </div>
+
+</section><!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="about.jpg" alt="Prince Rajsagar">
+        </div>
+
+        <div class="about-content">
+
+            <h5>ABOUT US</h5>
+
+            <h2>Prince Rajsagar</h2>
+
+            <p>
+                Welcome to <strong>Your Own Photography</strong>.
+                We capture weddings, pre-weddings, portraits,
+                cinematic films and special events with creativity,
+                passion and attention to every detail.
+                Every photograph tells a story that lasts forever.
+            </p>
+
+            <a href="#portfolio" class="btn">View Portfolio</a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Statistics -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="500">0</h2>
+        <p>Happy Clients</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="1000">0</h2>
+        <p>Photos Delivered</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="150">0</h2>
+        <p>Wedding Projects</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="5">0</h2>
+        <p>Years Experience</p>
+    </div>
+
+</section>
+<!-- ================= SERVICES ================= -->
+
+<section class="services" id="services">
+
+    <div class="section-title">
+
+        <h5>OUR SERVICES</h5>
+
+        <h2>What We Offer</h2>
+
+    </div>
+
+    <div class="service-grid">
+
+        <div class="service-card">
+            <h3>📸 Wedding Photography</h3>
+            <p>Luxury wedding photography with timeless memories.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>💍 Pre Wedding Shoot</h3>
+            <p>Creative outdoor and cinematic pre-wedding sessions.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>🎥 Cinematography</h3>
+            <p>Professional cinematic wedding films with premium editing.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>👤 Portrait Photography</h3>
+            <p>Premium portraits for personal and professional use.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>🎉 Birthday & Events</h3>
+            <p>Capture every celebration with beautiful photography.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>📷 Album Design</h3>
+            <p>Luxury wedding albums designed with elegance.</p>
+        </div>
+
+    </div>
+
+</section><!-- ================= PORTFOLIO ================= -->
+
+<section class="portfolio" id="portfolio">
+
+    <div class="section-title">
+        <h5>OUR PORTFOLIO</h5>
+        <h2>Recent Work</h2>
+    </div>
+
+    <div class="gallery">
+
+        <div class="gallery-item">
+            <img src="hero1.jpg" alt="Wedding Photography">
+            <div class="gallery-text">
+                <h3>Wedding</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="hero2.jpg" alt="Pre Wedding">
+            <div class="gallery-text">
+                <h3>Pre Wedding</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="hero3.jpg" alt="Portrait">
+            <div class="gallery-text">
+                <h3>Portrait</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="hero.jpg" alt="Cinematic">
+            <div class="gallery-text">
+                <h3>Cinematic</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PRICING ================= -->
+
+<section class="pricing" id="pricing">
+
+    <div class="section-title">
+        <h5>OUR PACKAGES</h5>
+        <h2>Choose Your Package</h2>
+    </div>
+
+    <div class="pricing-grid">
+
+        <div class="price-card">
+            <h3>Silver</h3>
+            <h1>₹19,999</h1>
+
+            <p>✔ Wedding Photography</p>
+            <p>✔ 100 Edited Photos</p>
+            <p>✔ Online Gallery</p>
+
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+
+        <div class="price-card featured">
+            <h3>Gold</h3>
+            <h1>₹39,999</h1>
+
+            <p>✔ Photography + Cinematic Film</p>
+            <p>✔ 300 Edited Photos</p>
+            <p>✔ Highlight Video</p>
+
+            <a href="#booking" class="btn">Most Popular</a>
+        </div>
+
+        <div class="price-card">
+            <h3>Platinum</h3>
+            <h1>₹49,999</h1>
+
+            <p>✔ Full Wedding Coverage</p>
+            <p>✔ Premium Album</p>
+            <p>✔ Unlimited Photos</p>
+
+            <a href="#booking" class="btn">Book Now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="testimonials" id="testimonials">
+<div class="testimonial-slider">
+
+    <div class="testimonial-card active">
+        <p>
+            ⭐⭐⭐⭐⭐<br><br>
+            "Amazing photography! Every moment was captured beautifully. Highly recommended."
+        </p>
+        <h3>— vikash & Priyanka</h3>
+    </div>
+
+    <div class="testimonial-card">
+        <p>
+            ⭐⭐⭐⭐⭐<br><br>
+            "Professional team and cinematic wedding film. We loved every photo."
+        </p>
+        <h3>— Ansuman Kumar</h3>
+    </div>
+
+    <div class="testimonial-card">
+        <p>
+            ⭐⭐⭐⭐⭐<br><br>
+            "Best photography experience. Thank you for making our memories special."
+        </p>
+        <h3>— Neha Singh</h3>
+        <div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Absolutely amazing wedding photography. Every picture tells a beautiful story."
+    </p>
+    <h3>— Rahul & Priya</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The cinematic wedding film exceeded our expectations. Highly recommended!"
+    </p>
+    <h3>— Aman Kumar</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Professional, creative and very friendly team. Thank you for capturing our memories."
+    </p>
+    <h3>— Neha Singh</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Best pre-wedding shoot experience. Every location and pose was perfectly planned."
+    </p>
+    <h3>— Rohan & Aditi</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Beautiful editing and outstanding photo quality. We loved every single picture."
+    </p>
+    <h3>— Vikash Kumar</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The entire team was punctual and very professional. Great experience!"
+    </p>
+    <h3>— Soni Kumari</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Our engagement photos looked like movie scenes. Truly impressive work."
+    </p>
+    <h3>— Deepak & Pooja</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Amazing drone shots and cinematic videos. Worth every penny."
+    </p>
+    <h3>— Abhishek Raj</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Thank you for making our special day unforgettable with your photography."
+    </p>
+    <h3>— Anjali Verma</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Excellent service, premium quality and very humble nature. Highly recommended."
+    </p>
+    <h3>— Karan & Simran</h3>
+</div>
+    </div>
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The team was extremely supportive and captured every emotion beautifully."
+    </p>
+    <h3>— Akash & Riya</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Excellent portrait photography with amazing editing quality."
+    </p>
+    <h3>— Pankaj Kumar</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Every family member loved the wedding album. Thank you!"
+    </p>
+    <h3>— Nitin & Sweta</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Very creative ideas and beautiful cinematic shots."
+    </p>
+    <h3>— Ravi Singh</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Best photographer in Jamshedpur. Highly professional service."
+    </p>
+    <h3>— Komal Sharma</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Our engagement photos looked magical. Thank you so much!"
+    </p>
+    <h3>— Saurabh & Neha</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Fast delivery and excellent editing. Completely satisfied."
+    </p>
+    <h3>— Ashish Raj</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Very humble team with outstanding photography skills."
+    </p>
+    <h3>— Anjali Kumari</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The drone shots made our wedding video look like a movie."
+    </p>
+    <h3>— Vivek & Pooja</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Perfect timing, premium quality and unforgettable memories."
+    </p>
+    <h3>— Rohit Verma</h3>
+</div>
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Our wedding memories were captured perfectly. Every picture is priceless."
+    </p>
+    <h3>— Aditya & Nisha</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Excellent service from start to finish. Very cooperative team."
+    </p>
+    <h3>— Rajesh Kumar</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The cinematic video was beyond our expectations. Outstanding work!"
+    </p>
+    <h3>— Manish & Sneha</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Creative poses, amazing editing and beautiful color grading."
+    </p>
+    <h3>— Priyanka Sharma</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Every guest appreciated the photography. Thank you for your dedication."
+    </p>
+    <h3>— Abhishek Singh</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Best photography experience we have ever had."
+    </p>
+    <h3>— Shubham & Muskan</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Professional behaviour and premium quality album. Loved everything."
+    </p>
+    <h3>— Kunal Verma</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The entire team worked hard to make our event memorable."
+    </p>
+    <h3>— Ritu Kumari</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Our pre-wedding shoot turned out exactly like we imagined."
+    </p>
+    <h3>— Mohit & Anjali</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Highly recommended for weddings, events and cinematic films."
+    </p>
+    <h3>— Vivek Raj</h3>
+</div>
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Amazing experience from booking to final delivery. Truly professional."
+    </p>
+    <h3>— Arjun & Kavya</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Beautiful editing and stunning wedding album. Thank you so much!"
+    </p>
+    <h3>— Sonu Kumar</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Our special day became unforgettable because of your photography."
+    </p>
+    <h3>— Rakesh & Pooja</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Every photo captured genuine emotions. We loved the results."
+    </p>
+    <h3>— Aakash Singh</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Fantastic team with creative ideas and excellent service."
+    </p>
+    <h3>— Shreya Verma</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The pre-wedding shoot was fun and the photos were breathtaking."
+    </p>
+    <h3>— Nikhil & Ritu</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Highly satisfied with the quality, professionalism and timely delivery."
+    </p>
+    <h3>— Sanjay Kumar</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Your Own Photography truly exceeded our expectations."
+    </p>
+    <h3>— Meera Singh</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "The wedding film looked like a movie. Absolutely loved it."
+    </p>
+    <h3>— Ajay & Nidhi</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Thank you for capturing every smile, emotion and celebration perfectly."
+    </p>
+    <h3>— Deepak Raj</h3>
+</div>
+
+<div class="testimonial-card">
+    <p>⭐⭐⭐⭐⭐<br><br>
+    "Wonderful experience with an extremely talented photography team."
+    </p
+</div>
+    <div class="
+    <!-- ================= BOOKING ================= -->
+
+<section class="booking" id="booking">
+
+    <div class="section-title">
+        <h5>BOOK NOW</h5>
+        <h2>Book Your Shoot</h2>
+    </div>
+
+    <div class="booking-form">
+
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <select id="service">
+            <option>Wedding Photography</option>
+            <option>Pre Wedding</option>
+            <option>Portrait</option>
+            <option>Cinematography</option>
+            <option>Birthday & Events</option>
+        </select>
+
+        <input type="date" id="date">
+
+        <textarea id="message" placeholder="Your Message"></textarea>
+
+        <button class="btn" onclick="sendBooking()">Book on WhatsApp</button>
+
+    </div>
+
+</section>
+
+<!-- ================= MAP ================= -->
+
+<section class="map">
+
+    <iframe
+        src="https://www.google.com/maps?q=Jamshedpur,Jharkhand&output=embed"
+        width="100%"
+        height="400"
+        style="border:0;"
+        loading="lazy">
+    </iframe>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+        <h5>CONTACT</h5>
+        <h2>Get In Touch</h2>
+    </div>
+
+    <div class="contact-box">
+
+        <div class="contact-info">
+<div class="contact-form">
+
+    <input type="text" id="user_name" placeholder="Your Name" required>
+
+    <input type="email" id="user_email" placeholder="Your Email" required>
+
+    <input type="tel" id="user_phone" placeholder="Phone Number">
+
+    <textarea id="user_message" placeholder="Your Message" required></textarea>
+
+    <button class="btn" onclick="sendMail()">Send Message</button>
+
+</div>
+
+            <h3>Prince Rajsagar</h3>
+
+            <p>📞 +91 8340166879</p>
+            <p>📱 +91 7209825538</p>
+            <p>📧 yourownphotography2@gmail.com</p>
+            <p>📍 Jamshedpur, Jharkhand</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h2>Your Own Photography</h2>
+
+<div class="social-links">
+
+    <a href="https://www.instagram.com/yourownphotography2?igsh=amo2dXpqcWY3czF6" target="_blank">📸 Instagram</a>
+
+    <a href="https://www.facebook.com/share/1D6mc9bH7o/" target="_blank">📘 Facebook</a>
+
+    <a href="https://youtube.com/@yourownphotography?si=MFOatGemx9mpPg2X" target="_blank">▶️ YouTube</a>
+
+</div>
+
+    <p>© 2026 Your Own Photography | All Rights Reserved</p>
+
+</footer>
+
+<!-- Floating WhatsApp -->
+
+<a href="https://wa.me/918340166879"
+   class="whatsapp"
+   target="_blank">
+    💬
+</a>
+<a href="#" id="topBtn">⬆</a>
+
+<!-- Lightbox -->
+
+<div id="lightbox">
+
+    <span id="closeLightbox">&times;</span>
+
+    <img id="lightboxImg" src="" alt="">
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
-section class="hero">
-  <h1>You Own Photography</h1>
-  <p>Capturing Timeless Cinematic Moments</p>
-
-  <a class="btn" href="#gallery">View Portfolio</a>
-  <a class="btn" href="https://wa.me/91XXXXXXXXXX">Book Now</a>
-</section>
-body {
-  margin: 0;
-  font-family: 'Arial';
-  background: #0a0a0a;
-  color: white;
-}
-
-.hero {
-  height: 100vh;
-  background: url('your-cover.jpg') center/cover no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 50px;
-  letter-spacing: 2px;
-}
-
-.hero p {
-  font-size: 18px;
-  opacity: 0.8;
-}
-
-.btn {
-  margin: 10px;
-  padding: 12px 25px;
-  background: white;
-  color: black;
-  text-decoration: none;
-  border-radius: 30px;
-}
-body {
-  margin: 0;
-  font-family: 'Arial';
-  background: #0a0a0a;
-  color: white;
-}
-
-.hero {
-  height: 100vh;
-  background: url('your-cover.jpg') center/cover no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 50px;
-  letter-spacing: 2px;
-}
-
-.hero p {
-  font-size: 18px;
-  opacity: 0.8;
-}
-
-.btn {
-  margin: 10px;
-  padding: 12px 25px;
-  background: white;
-  color: black;
-  text-decoration: none;
-  border-radius: 30px;
-<section id="gallery">
-  <h2>Portfolio</h2>
-
-  <div class="grid">
-    <img src="1.jpg">
-    <img src="2.jpg">
-    <img src="3.jpg">
-    <img src="4.jpg">
-  </div>
-</section>
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 20px;
-}
-
-.grid img {
-  width: 100%;
-  border-radius: 15px;
-}
-<section class="contact">
-  <h2>Let’s Work Together</h2>
-
-  <a href="https://wa.me/91XXXXXXXXXX">WhatsApp Booking</a>
-  <a href="https://instagram.com/yourid">Instagram</a>
-</section>
